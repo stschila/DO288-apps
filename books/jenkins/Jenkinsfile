@@ -11,10 +11,10 @@ pipeline {
 
     environment {
         //TODO: Edit these vars as per your env
-        DEV_PROJECT = "youruser-books-dev"
-        STAGE_PROJECT = "youruser-books-stage"
-        APP_GIT_URL = "https://github.com/youruser/DO288-apps"
-        NEXUS_SERVER = "http://nexus-common.apps.cluster.domain.example.com/repository/nodejs"
+        DEV_PROJECT = "stschila-books-dev"
+        STAGE_PROJECT = "stschila-books-stage"
+        APP_GIT_URL = "https://github.com/tschila/DO288-apps"
+        NEXUS_SERVER = "https://nexus-common.apps.ap45.prod.nextcle.com"
 
         // DO NOT CHANGE THE GLOBAL VARS BELOW THIS LINE
         APP_NAME = "books"
